@@ -1,0 +1,27 @@
+{
+	"name": "nrRenamer",
+	"version": "1.0.5",
+	"description": "Renames files by find and replace cmd line arguments",
+	"main": "renamer.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node renamer.js -d dir1 -f index -r blindex"
+	},
+	"bin": {
+		"renamer": "renamer.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/AntonNarkevich/nrRenamer.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/AntonNarkevich/nrRenamer/issues"
+	},
+	"homepage": "https://github.com/AntonNarkevich/nrRenamer",
+	"dependencies": {
+		"glob": "^5.0.3",
+		"minimist": "^1.1.1"
+	}
+}
